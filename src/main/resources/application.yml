@@ -1,0 +1,18 @@
+server:
+  port: 2226
+
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url.defaultZone: http://localhost:7000/eureka/
+
+spring:
+    application:
+      name: spring-mongo
+    data:
+      mongodb:
+        uri: mongodb://127.0.0.1:40000/user
+
+
